@@ -1,0 +1,12 @@
+# Build output and release packages
+build/
+release/
+# Extracts of the game's archives, movies and exe analysis: game data, not ours to publish
+work/
+# Third-party tools and archives kept locally (the build uses lib/ and vendor/ual-9.7.4/dinput8.dll)
+vendor/ffdec-*/
+vendor/*.zip
+vendor/ual-9.7.4/*.zip
+# Python caches
+__pycache__/
+*.pyc
